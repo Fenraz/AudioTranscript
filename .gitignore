@@ -1,0 +1,50 @@
+# Local application distribution and model weights
+/engine/
+/model/
+*.exe
+*.dll
+*.bin
+
+# Private chat context
+/source/HANDOFF.md
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+
+# Audio, video, and generated transcripts
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.opus
+*.aac
+*.wma
+*.mp4
+*.mkv
+*.webm
+*.srt
+*_транскрипт*.txt
+*.partial.txt
+Транскрипты/
+
+# Build outputs and developer environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.spec
+.vs/
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
